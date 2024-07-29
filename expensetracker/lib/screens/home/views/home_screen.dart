@@ -68,7 +68,7 @@ class _HomeScreenState extends State<HomeScreen> {
           Navigator.push(
             context,
             MaterialPageRoute<void>(
-              builder: (BuildContext context) => const AddExpense()
+              builder: (BuildContext context) => AddExpense()
               )
             );
         },
